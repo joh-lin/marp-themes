@@ -1,0 +1,49 @@
+/* @theme ouranos */
+
+/*
+Minimal theme to enable functionality
+- multiple column
+*/
+
+@import 'default';
+
+/* Title Slide */
+section.title {
+    align-items: center;
+    padding-top: calc(50vh - 1.6em);
+    justify-content: start;
+}
+section.title h1 {
+    margin-bottom: 0px;
+    font-size: 3em;
+    line-height: 0.5;
+}
+section.title h2 {
+    margin-top: 0.7em;
+    font-size: 1.2em;
+}
+
+/* Chapter Slide */
+section.chapter {
+    align-items: center;
+    padding-top: calc(50vh - 1.6em);
+    justify-content: start;
+}
+section.chapter h1 {
+    margin-bottom: 0px;
+    font-size: 3em;
+    line-height: 0.5;
+}
+section.chapter h2 {
+    margin-top: 0.7em;
+    font-size: 1.2em;
+}
+
+/* Columns */
+section div.columns {
+    display: flex;
+    flex-direction: row;
+}
+section div.columns * {
+    flex: 1 1 0;
+}
