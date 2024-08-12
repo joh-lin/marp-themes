@@ -1,11 +1,19 @@
 /* @theme ouranos */
 
 /*
+# Ouranos Theme
 Minimal theme to enable functionality
+
+## How to extend this theme
+- 
+
+## Added funtionality
 - multiple column
+- title and chapter pages
 */
 
 @import 'default';
+
 
 /* Title Slide */
 section.title {
