@@ -5,7 +5,7 @@ title: 'Marp Showcase'
 author: 'joh-lin'
 description: 'Slides to showcase features of Marp and the look of my themes'
 
-theme: aphrodite
+theme: ouranos
 paginate: true
 transition: iris-in 0.2s
 footer: 'Find this theme at https://github.com/joh-lin/marp-themes'
@@ -17,7 +17,8 @@ _class: title
 _paginate: skip
 _footer: ''
 -->
-# Marp Showcase
+
+# Marp Showcase more content that displays in a new line
 ## (and my themes)
 </br></br>
 by Johannes
