@@ -5,7 +5,7 @@ title: 'Marp Showcase'
 author: 'joh-lin'
 description: 'Slides to showcase features of Marp and the look of my themes'
 
-theme: aphrodite
+theme: dlr
 paginate: true
 transition: iris-in 0.2s
 footer: 'Find this theme at https://github.com/joh-lin/marp-themes'
@@ -19,7 +19,7 @@ _footer: ''
 -->
 
 # Marp Showcase more content that displays in a new line
-## (and my themes)
+## and my themes, that are based on the ouranos theme, which is in turn base on default
 </br></br>
 by Johannes
 
@@ -61,10 +61,22 @@ footer: 'https://github.com/joh-lin'
 </div></div>
 
 ---
-## Image formatting
+## Image formatting is the practice of modifying an image until it looks like you want it to look
+- This is just some placeholder
+    - content because i have not
+    - written anything for 
+        - image formatting yet 
+- but require some content and also some longer lines to test how the template, but require some content and also some longer lines to test how the template
+    - will work out in the end 
+- lorem ipsum dolor sit amet, consetetur sadipscing elitr
+
+Also i need some normal text in here too.
 
 ---
 ## Background formatting
+1. The same for background formatting, except that i
+2. Am now using
+    1. An ordered list instead.
 
 ---
 <!-- _class: chapter -->

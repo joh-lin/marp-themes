@@ -1,0 +1,114 @@
+/* @theme dlr */
+
+@import 'ouranos';
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    --accent-color: rgb(0, 101, 139);
+    --subheading-bg-color: rgba(0, 51, 69, 0.8);
+    --left-border-width: 35px;
+    --subheading-padding-top: 30px;
+    --title-bg-image: url('./dlr-title-bg.jpg');
+    --company-logo: url('./dlr-logo.png')
+}
+
+section {
+    box-shadow: inset var(--left-border-width) 0px var(--accent-color);
+    justify-content: start;
+    padding-top: 40px;
+}
+
+section::after {
+    position: absolute;
+    text-align: center;
+    width: var(--left-border-width);
+    padding: 0;
+    left: 0px;
+    bottom: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+section footer {
+    margin: 0;
+    position: absolute;
+    left: 100px;
+    bottom: 15px;
+    color: var(--header-footer-color);
+    font-size: 18px;
+}
+
+/* dlr logo */
+section::before {
+    content: '';
+    position: absolute;
+    background-image: var(--company-logo);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 40px;
+    right: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: rgb(127, 127, 127);
+    min-height: 2.5em;
+    padding-right: 90px;
+}
+
+
+ul, ol {
+    padding-left: 30px;
+} 
+ul li {
+    list-style-type: square;
+}
+ol li {
+    list-style-type: decimal;
+    padding-left: 10px;  /* yes, this padding only for ol */
+}
+
+/* title slide */
+section.title {
+    --left-border-width: 70px;
+    background-image: var(--title-bg-image);
+    justify-content: end;
+}
+
+section.title h1 {
+    text-transform: uppercase;
+    font-size: 1.9em;
+    position: absolute;
+    left: 150px;
+    right: 100px;
+    bottom: 50%;
+}
+
+
+section.title h2 {
+    font-size: 0.9em;
+    position: absolute;
+    top: 50%;
+    left: var(--left-border-width);
+    right: 200px;
+    padding: var(--subheading-padding-top) 75px 0px calc(150px - var(--left-border-width));
+    background-color: var(--subheading-bg-color);
+    height: 130px;
+    overflow: visible;
+    color: white;
+    box-sizing: border-box;
+}
+
+/* dlr logo */
+section::before {
+    top: unset;
+    bottom: 20px;
+    right: 25px;
+    width: 150px;
+    height: 150px;
+}

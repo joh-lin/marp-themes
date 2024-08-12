@@ -1,3 +1,5 @@
 # Ignore marp build output
 
 *.html
+dlr-logo.png
+dlr-title-bg.jpg
