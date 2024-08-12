@@ -5,7 +5,7 @@ title: 'Marp Showcase'
 author: 'joh-lin'
 description: 'Slides to showcase features of Marp and the look of my themes'
 
-theme: ouranos
+theme: aphrodite
 paginate: true
 transition: iris-in 0.2s
 footer: 'Find this theme at https://github.com/joh-lin/marp-themes'
