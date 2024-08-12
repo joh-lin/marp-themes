@@ -8,8 +8,8 @@
     --subheading-bg-color: rgba(0, 51, 69, 0.8);
     --left-border-width: 35px;
     --subheading-padding-top: 30px; /* use this to center text */
-    --title-bg-image: url('./dlr-title-bg.jpg');
-    --company-logo: url('./dlr-logo.svg')
+    --title-bg-image: url('https://raw.githubusercontent.com/joh-lin/marp-themes/main/dlr/dlr-title-bg.svg');
+    --company-logo: url('https://raw.githubusercontent.com/joh-lin/marp-themes/main/dlr/dlr-logo.svg')
 }
 
 section {
