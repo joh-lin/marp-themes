@@ -43,21 +43,38 @@ footer: 'https://github.com/joh-lin'
 <!-- _backgroundImage: url('https://plus.unsplash.com/premium_photo-1701520913496-503a71946555?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJlc2VudGF0aW9uJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D') -->
 
 
-<div class="columns"><div class="col" style="flex-grow: 0.5">
+<div class="columns"><div class="col">
 
 - backgroundColor
 - backgroundImage
 - backgroundPosition
 - backgroundRepeat
 - backgroundSize
-</div><div class="col">
+</div><div class="col" style="flex-grow: 0.5">
 
 - color
 - size
 - style
 - header 
 - class
+</div><div class="col">
+
+<div data-marpit-fragment>
+
+![img](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8xF41_qUV3Kue3McuviMZmzj0FqCD7O2uEp0du0i7Hz4ZgpdJ)
+</div>
+
 </div></div>
+
+---
+## Specify fragments using div
+```md
+<div data-marpit-fragment>
+    Content
+</div>
+```
+Will make the "Content" be a fragment just like:
+\* and \) for lists.
 
 ---
 ## Image formatting is the practice of modifying an image until it looks like you want it to look
