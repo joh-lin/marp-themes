@@ -14,7 +14,6 @@ footer: 'Find this theme at https://github.com/joh-lin/marp-themes'
 
 <!-- 
 _class: title
-_paginate: skip
 _footer: ''
 -->
 
@@ -44,7 +43,7 @@ footer: 'https://github.com/joh-lin'
 <!-- _backgroundImage: url('https://plus.unsplash.com/premium_photo-1701520913496-503a71946555?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJlc2VudGF0aW9uJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D') -->
 
 
-<div class="columns"><div class="col">
+<div class="columns"><div class="col" style="flex-grow: 0.5">
 
 - backgroundColor
 - backgroundImage
@@ -77,6 +76,9 @@ Also i need some normal text in here too.
 1. The same for background formatting, except that i
 2. Am now using
     1. An ordered list instead.
+3. Which also contains
+    - unordered 
+    - elements
 
 <div class="additions">
 
@@ -98,7 +100,7 @@ This produces a slide with two columns.
 
 - its important
 - to always leave
-</div><div class="col">
+</div><div class="col" style="flex-grow: 0.5">
 
 - an empty line
 - below html elements
