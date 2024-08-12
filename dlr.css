@@ -7,7 +7,7 @@
     --accent-color: rgb(0, 101, 139);
     --subheading-bg-color: rgba(0, 51, 69, 0.8);
     --left-border-width: 35px;
-    --subheading-padding-top: 30px;
+    --subheading-padding-top: 30px; /* use this to center text */
     --title-bg-image: url('./dlr-title-bg.jpg');
     --company-logo: url('./dlr-logo.svg')
 }
@@ -137,21 +137,22 @@ section.chapter h1 {
 }
 
 
-section.chapter h2 {
-    font-size: 0.9em;
-    position: absolute;
-    top: 50%;
-    left: var(--left-border-width);
-    right: 200px;
-    padding: var(--subheading-padding-top) 75px 0px calc(150px - var(--left-border-width));
-    background-color: var(--subheading-bg-color);
-    height: 130px;
-    overflow: visible;
-    color: white;
-    box-sizing: border-box;
-}
-
 /* dlr logo */
 section.chapter::before {
     filter: invert() brightness(1000%);
+}
+
+/* some slides have an additional field at the bottom */
+/* background color is transparent here but not in original */
+section div.additions {
+    color: white;
+    background-color: var(--subheading-bg-color); /* ^ comment above */
+    position: absolute;
+    left: var(--left-border-width);
+    bottom: 50px;
+    height: 130px;
+    right: 78.5px;;
+    line-height: 100%;
+    padding: 15px 35px;
+    box-sizing: border-box;
 }

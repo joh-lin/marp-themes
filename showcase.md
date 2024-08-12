@@ -78,6 +78,13 @@ Also i need some normal text in here too.
 2. Am now using
     1. An ordered list instead.
 
+<div class="additions">
+
+- This is some additional information
+- Might be a definition or some describtion text
+- last
+</div>
+
 ---
 <!-- _class: chapter -->
 # Theme Showcase
